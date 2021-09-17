@@ -16,6 +16,7 @@ main {
     justify-content: center;
     align-items: center;
 }
+
 .questionBox {
     box-sizing: content-box;
     padding: 10px ;
@@ -41,6 +42,9 @@ main {
 .answerBtns {
     column-count: 1;
     justify-content: space-evenly;
+    
 }
 
-.
+.hide {
+    display: none;
+}

@@ -9,15 +9,24 @@
 </head>
 <body>
 
-    <script src="./assets/js/script.js"></script>
     
-</body>
+    
+
 <header>
     <div class="scores"> View High Scores </div>
-    <div class="timer">TIMER</div>
+    <div >TIMER: <span class="timer">100</span></div>
 </header>    
 <main>
-    <div class="questionBox">
+    <div class ="welcome">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ea ex maxime eum ipsum,
+            enim commodi? Accusamus mollitia nulla placeat nemo totam blanditiis, perferendis nostrum? Dignissimos explicabo 
+            ullam excepturi ipsa?</p>
+        <button class="startBtn">
+            Start Quiz
+        </button>
+    </div>
+    <div class="questionBox hide">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ea ex maxime eum ipsum,
      enim commodi? Accusamus mollitia nulla placeat nemo totam blanditiis, perferendis nostrum? Dignissimos explicabo 
      ullam excepturi ipsa?
@@ -29,8 +38,17 @@
     </ul>
     
     </div>
+    <div class ="allDone hide">
+        <h1>All Done!</h1>
+        <p>Your Score is: <span class="score"></span></p> 
+        <input class ="initials">
+        <button class ="doneBtn"></button>
+        
+
+    </div>
         
 </main>
+<script src="./assets/js/script.js"></script>
 
-
+</body>
 </html>
